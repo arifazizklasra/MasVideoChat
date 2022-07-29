@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "213003202067",
+    "firebase_url": "https://maschat-video-default-rtdb.firebaseio.com",
+    "project_id": "maschat-video",
+    "storage_bucket": "maschat-video.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213003202067:android:efaf9fb21477c7babcd9e6",
+        "android_client_info": {
+          "package_name": "com.rifcode.masvideochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213003202067-9glgcj3fel2g328reah613t30s1sunkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAw0QXy7LHYUw_O0Z2LTxZvnrZ3PRhcHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213003202067-9glgcj3fel2g328reah613t30s1sunkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

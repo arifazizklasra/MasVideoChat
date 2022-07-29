@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rifcode.masvideochat">
+
+    <permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.location.network" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/holala_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/holala_icon"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.rifcode.masvideochat.View.Main.HistoryActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Chat.VideoCallAnswerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Random.VideoCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Random.RequestCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Random.SearchRandomActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Random.VoiceCallActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Chat.ChatActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.rifcode.holala_TARGET_NOTIFICATION_messages" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.rifcode.masvideochat.View.Main.UserProfileActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Main.NearbyActivity"
+            android:parentActivityName="com.rifcode.masvideochat.View.Main.MainActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Profile.LanguagesActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Profile.Community.CommunityActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.TermsOfServiceActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.PrivacyPolicyActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.WelcomeActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.rifcode.masvideochat.View.Profile.PreviewProfileActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Profile.SettingsActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Profile.AboutAppActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Profile.EditProfileActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.InfoRegisterActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.VerifyPhoneActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.RegisterActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.PhoneActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name="com.rifcode.masvideochat.View.Main.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="com.rifcode.holala_TARGET_NOTIFICATION_video_call" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.AddPicActivity"
+            android:theme="@style/AppFullScreen"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            />
+
+        <activity
+            android:name="com.rifcode.masvideochat.View.Login.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/AppFullScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- facebook login -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.rifcode.masvideochat.Utils.FirebaseMessagingService"
+            tools:ignore="InnerclassSeparator"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.rifcode.masvideochat.Utils.ServiceDestroyApp"
+            android:stopWithTask="false" />
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
