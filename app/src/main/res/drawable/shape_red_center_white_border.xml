@@ -12,8 +12,8 @@
 
         <shape android:shape="rectangle">
             <gradient
-                android:startColor="#FF4B2B"
-                android:endColor="#FF416C"
+                android:startColor="#00ACC1"
+                android:endColor="#00ACC1"
                 android:angle="90.0" android:type="linear" />
             <stroke
                 android:width="2dp"

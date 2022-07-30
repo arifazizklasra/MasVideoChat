@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/bg_facebook_login_btn.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/his_msg_videocall_bg.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/icon_left_back_arrow.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/selector_filter_option.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/selector_register_groupb_btn_next.xml" value="0.1975" />
@@ -16,6 +17,7 @@
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_register_btn_next_unselected.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_white_center_red_border.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/side_nav_bar.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/side_nav_magic.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/video_chat_black.xml" value="0.1975" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_about_app.xml" value="0.25416666666666665" />
         <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_add_pic.xml" value="0.4" />

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#D3013C</color>
-    <color name="colorPrimaryDark">#D3013C</color>
-    <color name="colorAccent">#D3013C</color>
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#00ACC1</color>
+    <color name="colorAccent">#00ACC1</color>
 
     <color name="white_normal">#ffffffff</color>
     <color name="facebook_bg_color">#ff1777f1</color>
 
-    <color name="normal_red">#D3013C</color>
+    <color name="normal_red">#00ACC1</color>
     <color name="black72">#b8000000</color>
     <color name="black_3d000000">#3d000000</color>
     <color name="black_normal">#ff000000</color>
     <color name="black_normal_darker">#ff323231</color>
     <color name="black_primary_lighter">#ff1b1a1a</color>
 
-    <color name="red_primary">#D3013C</color>
+    <color name="red_primary">#00ACC1</color>
 
     <color name="main_text">#ff242323</color>
     <color name="white_primary_darker">#fff7f4f3</color>
-    <color name="red_ff5346">#D3013C</color>
+    <color name="red_ff5346">#00ACC1</color>
     <color name="gray_c6bfbd">#ffc6bfbd</color>
     <color name="mask_lighter">#22000000</color>
     <color name="white_gray_fcfbfa">#fffcfbfa</color>

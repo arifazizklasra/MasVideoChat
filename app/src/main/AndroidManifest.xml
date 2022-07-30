@@ -22,9 +22,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/holala_icon"
+        android:icon="@drawable/holala_icon_max"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/holala_icon"
+        android:roundIcon="@drawable/holala_icon_max"
         android:supportsRtl="true"
         android:largeHeap="true"
         android:hardwareAccelerated="true"
