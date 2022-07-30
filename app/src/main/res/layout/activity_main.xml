@@ -24,9 +24,10 @@
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tl_main_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="56.0dip"
             android:background="@color/white_normal"
-            android:visibility="gone"
-            android:layout_width="fill_parent" android:layout_height="56.0dip" />
+            android:visibility="gone" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tl_main_plan_indicator"
@@ -37,10 +38,11 @@
 
             />
 
-        <View android:layout_gravity="top"
+        <View
             android:id="@+id/main_seperate_line"
-            android:visibility="gone"
-            style="@style/AppTheme.SingleHorizontalLineStyle" />
+            style="@style/AppTheme.SingleHorizontalLineStyle"
+            android:layout_gravity="top"
+            android:visibility="gone" />
 
     </FrameLayout>
 

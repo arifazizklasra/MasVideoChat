@@ -26,7 +26,7 @@
     <dimen name="login_btn_height">44.0dip</dimen>
     <dimen name="login_btn_margin_left">22.0dip</dimen>
     <dimen name="login_btn_margin_right">22.0dip</dimen>
-    <dimen name="login_btn_radius">16.0dip</dimen>
+    <dimen name="login_btn_radius">6.0dip</dimen>
     <dimen name="login_btn_textsize">16.0sp</dimen>
     <dimen name="login_facebook_btn_bottom_padding">14.0dip</dimen>
     <dimen name="login_accountkit_btn_bottom_padding">21.0dip</dimen>

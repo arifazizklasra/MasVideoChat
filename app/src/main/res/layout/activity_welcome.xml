@@ -35,21 +35,20 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/holala_icon"
                 android:layout_marginStart="@dimen/dp10"
                 android:layout_marginEnd="@dimen/dp10"
-                 />
+                android:src="@drawable/holala_icon"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_name"
-                android:textSize="50sp"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:textColor="@color/red_ff5346"
                 android:fontFamily="@font/avenir_next_bold"
-                />
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/red_ff5346"
+                android:textSize="40sp" />
 
 
         </LinearLayout>

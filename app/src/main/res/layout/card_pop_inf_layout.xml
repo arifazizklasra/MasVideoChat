@@ -44,14 +44,15 @@
                     android:fontFamily="@font/avenir_next_bold" />
 
 
-                <ImageView android:layout_gravity="end|center"
+                <ImageView
                     android:id="@+id/iv_pop_report"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/report"
-                    android:visibility="gone"
+                    android:layout_gravity="end|center"
                     android:layout_marginStart="16.0dip"
-                    android:layout_marginEnd="-12.0dip" />
+                    android:layout_marginEnd="-12.0dip"
+                    android:src="@drawable/report"
+                    android:visibility="gone" />
 
             </LinearLayout>
 

@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/bg_facebook_login_btn.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/icon_left_back_arrow.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/selector_filter_option.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/selector_register_groupb_btn_next.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_corner_12dp_blue_3edbff_solid.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_corner_12dp_white_solid_gray_efecec_stroke.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_corner_44dp_purple_5158ff_solid.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_corner_btnlogin_next_sendcode_red.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_red_center_white_border.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_register_btn_next_selected.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_register_btn_next_unselected.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/shape_white_center_red_border.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/side_nav_bar.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/drawable/video_chat_black.xml" value="0.1975" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_about_app.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_add_pic.xml" value="0.4" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_community.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_edit_profile.xml" value="0.4" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_info_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_languages.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_nearby.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_phone.xml" value="0.4" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_preview_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_privacy_policy.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_request_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_search_random.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_terms_of_service.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_verify_phone.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_video_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_video_chat_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_voice_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/activity_welcome.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/ad_unified.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/btn_login_accountkit.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/btn_login_facebook.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/card_pop_inf_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_discover_new_match_filter_bottom.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_enable_mylocation.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_friend_request.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_gifts_choose.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_log_out.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_nearby_filter.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_picture_select.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_report_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_review_us.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_send_suggestions.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/dialog_unmatch.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/fragment_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/fragment_answers.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/fragment_messaging.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/fragment_random_people.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/fragment_rules.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_edit_profile_photo.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_gifts_list_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_message_recieve.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_message_send.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_message_videocall_recieve.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_message_videocall_send.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_message_voicecall_recieve.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_message_voicecall_send.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_messages_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_messages_video_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_messages_voice_call.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/item_swipe_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/layout_item_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/layout_list_images_item_swip.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/layout_list_row_language.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/layout_new_friends.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/menu_chat_message_more.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/native_ad_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/view_discover_navigation_option.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/view_discover_navigation_option_bottom.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/view_home_tab.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/view_voice_call_tool.xml" value="0.25416666666666665" />
+        <entry key="..\:/My_projects/MasVideoChat/app/src/main/res/layout/view_voice_call_user.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

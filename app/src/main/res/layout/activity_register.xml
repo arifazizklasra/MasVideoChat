@@ -26,8 +26,8 @@
                 android:id="@+id/imgvRegisterUser"
                 android:layout_width="120.0dip"
                 android:layout_height="120.0dip"
-                android:src="@drawable/icon_register_select_header"
-                android:layout_centerInParent="true" />
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_register_select_header" />
 
             <RelativeLayout
                 android:id="@+id/rl_register_loading"

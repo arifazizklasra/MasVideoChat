@@ -33,7 +33,7 @@
             </LinearLayout>
 
 
-            <ImageView android:id="@+id/iv_chat_message_title_more" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more" />
+            <ImageView android:id="@+id/iv_chat_message_title_more" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more" android:alpha="0.5" />
 
         </LinearLayout>
 
@@ -97,8 +97,9 @@
                             tools:ignore="RtlSymmetry">
 
                             <ImageView android:id="@+id/iv_chat_msg_inpu_video"
-                                android:layout_width="48.0dip"
-                                android:layout_height="48.0dip"
+                                android:layout_width="33.0dip"
+                                android:layout_height="33.0dip"
+                                android:alpha="0.5"
                                 android:src="@drawable/video_chat_black"
                                 android:layout_marginStart="8dp" />
 
@@ -135,11 +136,11 @@
     </LinearLayout>
 
 
-
-    <ViewStub android:id="@+id/menu_chat_message_more"
-        android:layout="@layout/menu_chat_message_more"
+    <ViewStub
+        android:id="@+id/menu_chat_message_more"
         android:layout_width="fill_parent"
-        android:visibility="gone"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        android:layout="@layout/menu_chat_message_more"
+        android:visibility="gone" />
 
 </RelativeLayout>

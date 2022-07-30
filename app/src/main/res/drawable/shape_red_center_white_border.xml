@@ -21,7 +21,7 @@
 
             <!-- border-radius -->
             <corners
-                android:radius="50dp"/>
+                android:radius="6dp"/>
 
         </shape>
 

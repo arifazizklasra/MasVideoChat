@@ -6,9 +6,9 @@
     android:orientation="vertical"
     >
 
-    <include layout="@layout/item_message_send"
-        android:visibility="gone"
-        />
+    <include
+        layout="@layout/item_message_send"
+        android:visibility="gone" />
 
     <include layout="@layout/item_message_recieve"
         android:visibility="gone"

@@ -58,7 +58,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 .setTitleColor(R.color.red_ff5346)
                 .showProgress(true)
                 .setProgressColor(R.color.red_ff5346)
-                .setSubTitle(getString(R.string.sutitl_splash))
+                //.setSubTitle(getString(R.string.sutitl_splash))
                 .setSubTitleColor(R.color.main_text)
                 .setBackgroundResource(R.color.white)
                 .setFullScreen(true)

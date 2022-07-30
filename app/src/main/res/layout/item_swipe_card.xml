@@ -188,13 +188,16 @@
 
         </RelativeLayout>
 
-        <include android:layout_gravity="bottom" android:visibility="gone"
+        <include
+            layout="@layout/card_pop_inf_layout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="8.0dip"
             android:layout_marginTop="6.0dip"
+            android:layout_marginEnd="8.0dip"
             android:layout_marginBottom="45.0dip"
-            android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip"
-            layout="@layout/card_pop_inf_layout" />
+            android:visibility="gone" />
 
     </androidx.cardview.widget.CardView>
 

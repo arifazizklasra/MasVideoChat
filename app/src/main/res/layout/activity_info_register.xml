@@ -160,20 +160,20 @@
     </LinearLayout>
 
     <TextView
-        android:enabled="false"
-        android:textSize="@dimen/xxx_normal_font"
-        android:textColor="@android:color/white"
-        android:gravity="center"
         android:id="@+id/tvNextInfoRegister"
-        android:background="@drawable/selector_register_groupb_btn_next"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/register_button_confirm_height"
-        android:layout_marginTop="@dimen/register_button_confirm_margin_top"
-        android:layout_marginBottom="24.0dip"
-        android:text="@string/next_verify"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="@dimen/register_seperate_line_margin_horizon"
-        android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon" />
+        android:layout_marginTop="@dimen/register_button_confirm_margin_top"
+        android:layout_marginEnd="@dimen/register_seperate_line_margin_horizon"
+        android:layout_marginBottom="24.0dip"
+        android:background="@drawable/selector_register_groupb_btn_next"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/next_verify"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/xxx_normal_font" />
 
 
 </RelativeLayout>
